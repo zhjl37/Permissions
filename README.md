@@ -14,6 +14,8 @@ implementation '...'
 
 ## Usage
 
+### Declare required permissions
+
 ### Request permissions
 
 ```
