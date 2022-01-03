@@ -22,3 +22,5 @@ implementation '...'
 ```
 
 ### Handle permission result
+
+### Custom your PermissionsRationaleActivity
