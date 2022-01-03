@@ -19,3 +19,4 @@ implementation '...'
 ```
 ```
 
+### Handle permission result
