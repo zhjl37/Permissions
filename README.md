@@ -8,7 +8,7 @@ Simplifying Android Permissions
 
 - The 1st screenshot illustrates the UI
 - The 2nd screenshot illustrates the UI after the user denied the permissions, and selected with 'Never asked again' option.
-- The 3nd screenshot illustrates the UI for requesting permissions after the user denied the permissions, and selected with 'Never asked again' option.
+- The 3nd screenshot illustrates the rationale dialog for requesting permissions after the user denied the permissions, and selected with 'Never asked again' option.
 
 > Note: The permissions rationale dialog is shown only after the user denied the permissions, and selected with 'Never asked again' option.
 
