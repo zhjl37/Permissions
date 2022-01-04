@@ -2,6 +2,10 @@
 
 Simplifying Android Permissions
 
+- The 1st screenshot illustrates the UI
+- The 2nd screenshot illustrates the UI after the user denied the permissions, and selected with 'Never asked again' option.
+- The 3nd screenshot illustrates the UI for requesting permissions after the user denied the permissions, and selected with 'Never asked again' option.
+
 ![](https://raw.githubusercontent.com/zhjl37/Permissions/main/screenshot-1.png)
 ![](https://raw.githubusercontent.com/zhjl37/Permissions/main/screenshot-2.png)
 ![](https://raw.githubusercontent.com/zhjl37/Permissions/main/screenshot-3.png)
