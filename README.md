@@ -84,7 +84,7 @@ private val permissions = multiplePermissions(
 
 ```
 
-#### Alternative: config in AndroidManifest.xml
+#### Alternatively: config in AndroidManifest.xml
 
 ```
 <activity
