@@ -13,6 +13,8 @@ Simplifying Android Permissions
 > **Note**: 
 > The permissions rationale dialog is shown only after the user denied the permissions, and selected with 'Never asked again' option.
 
+![](https://raw.githubusercontent.com/zhjl37/Permissions/main/screenrecord.gif)
+
 ## Gradle
 
 ```
