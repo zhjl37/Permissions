@@ -35,7 +35,11 @@ companion object {
     )
 }
 
-private val permissions = multiplePermissions(PERMISSIONS_REQUIRED, ::onActivityResult)        
+private val permissions = multiplePermissions(
+    permissions = PERMISSIONS_REQUIRED,
+    callback = ::onActivityResult
+)
+
 ```
 
 ### Request permissions
