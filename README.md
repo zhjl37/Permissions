@@ -59,6 +59,42 @@ private fun onActivityResult(result: Map<String, Boolean>) {
 ```
 
 ### Custom your PermissionsRationaleActivity
+
+#### Programmatically
+
+Custom your options and apply it.
+
 ```
-...
+companion object {
+    private val PERMISSIONS_REQUIRED = arrayOf(
+        Manifest.permission.CAMERA,
+        Manifest.permission.WRITE_EXTERNAL_STORAGE
+    )
+    
+    private val PERMISSIONS_OPTIONS = Options().apply {
+        rationaleActivityClass = ${𝙔𝙤𝙪𝙧𝙋𝙚𝙧𝙢𝙞𝙨𝙨𝙞𝙤𝙣𝙨𝙍𝙖𝙩𝙞𝙤𝙣𝙖𝙡𝙚𝘼𝙘𝙩𝙞𝙫𝙞𝙩𝙮}::class.java
+    }
+}
+
+private val permissions = multiplePermissions(
+    permissions = PERMISSIONS_REQUIRED,
+    options = PERMISSIONS_OPTIONS,
+    callback = ::onActivityResult
+)
+
 ```
+
+#### Config in AndroidManifest.xml
+
+```
+<activity
+    android:name="${𝙮𝙤𝙪𝙧𝙋𝙖𝙘𝙠𝙖𝙜𝙚𝙉𝙖𝙢𝙚}.${𝙔𝙤𝙪𝙧𝙋𝙚𝙧𝙢𝙞𝙨𝙨𝙞𝙤𝙣𝙨𝙍𝙖𝙩𝙞𝙤𝙣𝙖𝙡𝙚𝘼𝙘𝙩𝙞𝙫𝙞𝙩𝙮}"
+    android:exported="false">
+
+    <intent-filter>
+        <action android:name="${𝙮𝙤𝙪𝙧𝙋𝙖𝙘𝙠𝙖𝙜𝙚𝙉𝙖𝙢𝙚}.intent.action.PERMISSIONS_RATIONALE" />
+    </intent-filter>
+</activity>
+```
+
+
