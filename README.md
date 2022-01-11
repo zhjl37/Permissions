@@ -18,7 +18,9 @@ Simplifying Android Permissions
 ## Gradle
 
 ```
-implementation("com.zhjl37.permission:permission:1.0.0")
+dependencies {
+    implementation("com.zhjl37.permission:permission:1.0.0")
+}
 ```
 
 ## Usage
