@@ -2,7 +2,7 @@
 
 Simplifying Android Permissions
 
-> Thanks [guolindev/PermissionX](https://github.com/guolindev/PermissionX) for providing [PermissionMap.kt](https://github.com/guolindev/PermissionX/blob/master/permissionx/src/main/java/com/permissionx/guolindev/dialog/PermissionMap.kt)
+> Thanks to [guolindev/PermissionX](https://github.com/guolindev/PermissionX) for providing [PermissionMap.kt](https://github.com/guolindev/PermissionX/blob/master/permissionx/src/main/java/com/permissionx/guolindev/dialog/PermissionMap.kt)
 
 ![](https://raw.githubusercontent.com/zhjl37/Permissions/main/screenshot-1.png)
 ![](https://raw.githubusercontent.com/zhjl37/Permissions/main/screenshot-2.png)
