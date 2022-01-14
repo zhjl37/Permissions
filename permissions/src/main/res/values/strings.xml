@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enable_permissions">开启权限</string>
+
+    <string name="not_now">暂不开启</string>
+    <string name="settings">去设置</string>
+
+    <string name="rationale_for_denied">%1$s 需要开启以下权限才能正常使用，请在应用设置中开启访问权限。</string>
+</resources>

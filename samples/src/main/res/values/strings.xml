@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Permissions</string>
+
+    <string name="request_permissions">开启权限</string>
+    <string name="prompt_permissions_granted">权限已获取</string>
+
+</resources>

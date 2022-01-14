@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enable_permissions">Enable Permissions</string>
+
+    <string name="not_now">not now</string>
+    <string name="settings">settings</string>
+
+    <string name="rationale_for_denied">%1$s may not work correctly without the requested permissions.
+        Open the app settings screen to modify app permissions.</string>
+</resources>
